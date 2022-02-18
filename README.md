@@ -10,3 +10,6 @@ Speaker Recognition can be divided into two types of applications: <b>Speaker Ve
 With the increasing demand for security, two fundamental concepts come to the fore: that of identity and that of non-repudiation. In other words, if the identification technique is sufficiently secure, then in addition to guaranteeing the identity of the person speaking, it will imply that the latter cannot deny having done so.</p><br>
 
 <p>With my thesis project I wanted to explore the recognition of voiceprints because nowadays the technology used to implement these biometric systems is available to everyone. Specifically, I used a neural architecture for the processing of raw audio samples, ECAPA-TDNN, based on the Time Delay Neural Network (TDNN) model. The architecture used significantly outperforms previous models on the VoxCeleb1 and VoxCeleb2 datasets.<p>
+
+<strong>Phase 1</strong>
+<img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc0.jpg" alt="SpeakerVerification" >
