@@ -12,4 +12,6 @@ With the increasing demand for security, two fundamental concepts come to the fo
 <p>With my thesis project I wanted to explore the recognition of voiceprints because nowadays the technology used to implement these biometric systems is available to everyone. Specifically, I used a neural architecture for the processing of raw audio samples, ECAPA-TDNN, based on the Time Delay Neural Network (TDNN) model. The architecture used significantly outperforms previous models on the VoxCeleb1 and VoxCeleb2 datasets.<p>
 
 <strong>Phase 1</strong>
+<p>Each speaker recognition system is characterised by two phases: a data collection phase (enrollment) and a verification phase (verification). During the data collection phase, the voice of the speaker is recorded and from it a certain number of characteristics are extracted through a neural model trained to form a vocal fingerprint. In the verification phase a voice sample is compared with the previously created voiceprint to verify its identity. If the two fingerprints match, it is the same speaker and the verification is successful.</p>
+
 <img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc0.jpg" alt="SpeakerVerification" >
