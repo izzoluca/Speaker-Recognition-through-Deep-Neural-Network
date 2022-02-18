@@ -15,3 +15,9 @@ With the increasing demand for security, two fundamental concepts come to the fo
 <p>Each speaker recognition system is characterised by two phases: a data collection phase (enrollment) and a verification phase (verification). During the data collection phase, the voice of the speaker is recorded and from it a certain number of characteristics are extracted through a neural model trained to form a vocal fingerprint. In the verification phase a voice sample is compared with the previously created voiceprint to verify its identity. If the two fingerprints match, it is the same speaker and the verification is successful.</p>
 
 <img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc0.jpg" alt="SpeakerVerification" >
+
+<p>The Enrollment phase is the first phase of a biometric process and consists of the acquisition of the biometric characteristics of the individual. On the sample obtained, the quality of the signal is generally checked and then follows a procedure known as "feature extraction". From the audio tracks in "wav" format, a CSV file is produced that will be useful for the training phase. These files tell the model where to find the audio data and how to identify it. The process of creating the files is made possible by the package implemented in the PyTorch library "torchaudio", which is commonly used for I/O operations and audio transformations, using functions that analyse the audio signal and extract the necessary information to fill the file. 
+Once this process is complete, a data augmentation process is performed, which literally means 'data augmentation'. It is a set of techniques that expand the available dataset without actually collecting new elements, used to solve the common problem of overfitting.</p>
+
+<img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc1.jpg" alt="SpeakerVerification" >
+<h3>Phase 2</h3>
