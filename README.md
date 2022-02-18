@@ -20,4 +20,10 @@ With the increasing demand for security, two fundamental concepts come to the fo
 Once this process is complete, a data augmentation process is performed, which literally means 'data augmentation'. It is a set of techniques that expand the available dataset without actually collecting new elements, used to solve the common problem of overfitting.</p>
 
 <img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc1.jpg" alt="SpeakerVerification" >
+
 <h3>Phase 2</h3>
+<p>The previously elaborated data set is divided, in a pseudo-random way, in two subsets: one destined to the training phase of the neural model (training set) and the other to the validation phase (test set), and they include respectively 90% and 10% of the data of the whole dataset. The training set is used to train the classifier to recognise the subjects, while the test set is used to verify the correctness of the classification.</p>
+
+<img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc2.jpg" alt="Training" >
+
+<h3>Phase 3</h3>
