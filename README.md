@@ -27,3 +27,6 @@ Once this process is complete, a data augmentation process is performed, which l
 <img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc2.jpg" alt="Training" >
 
 <h3>Phase 3</h3>
+<p>For the recognition of the speaker, as previously mentioned, the library <a href="https://speechbrain.github.io/"> "SpeechBrain" </a> was used, which allowed the use of the neural model trained previously to extract the characteristics of the audio tracks and compare them giving in output a score and a prediction. The score is calculated using the cosine distance function (i.e. a heuristic technique for measuring the similarity between the two vectors, carried out by calculating the cosine between them, The similarity value thus defined is between -1 and +1, +1 if the two vectors are perfectly equal, -1 otherwise), while the prediction is a Boolean value, which will be "TRUE" when the system recognises the two voiceprints as coming from the same speaker, while it will be "FALSE" in the opposite case. </p>
+
+<b>(Thanks to Marco Ravanelli)</b>
