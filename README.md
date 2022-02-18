@@ -34,4 +34,8 @@ Once this process is complete, a data augmentation process is performed, which l
 <h3>Phase 4 </h3>
 <p>Testing phase: For information on the experiments, see this <a href="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/SpeakerRecognitionDNN%20-%20LucaIzzo.pptx"> document </a>. </p>
 
-<b>(Thanks to Marco Ravanelli)</b>
+<h3>Results</h3>
+<p>The accuracy achieved by the ECAPA-TDNN model after training with the VoxCeleb1 and VoxCeleb2 datasets was 98-99% for both datasets. This figure increased by about 2% compared to older systems based on different models but trained on the same dataset. While the Equal Error Rate (EER) stored by the system is 0.69%. In fact: a biometric system is better the lower the value of its EER.<br>
+<b> Even 2.6% lower than the models considered to be state-of-the-art (x-Vector and ResNet).</b></p>
+
+<img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc4.jpg" alt="Verification" >
