@@ -39,3 +39,7 @@ Once this process is complete, a data augmentation process is performed, which l
 <b> Even 2.6% lower than the models considered to be state-of-the-art (x-Vector and ResNet).</b></p>
 
 <img src="https://github.com/izzoluca/Speaker-Recognition-through-Deep-Neural-Network/blob/main/Screenshots/sc4.jpg" alt="Verification" >
+
+
+<h1> Update in Progress </h1>
+<p>Setup,configurations and tests will be uploaded soon.</p>
